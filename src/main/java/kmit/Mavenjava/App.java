@@ -5,6 +5,6 @@ package kmit.Mavenjava;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello sanj!");
+        System.out.println("Hello sanj! how you doingggg my g");
     }
 }
