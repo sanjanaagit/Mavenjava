@@ -214,8 +214,30 @@ docker compose up --build -d
 This is specifically in your **Week 7 manual**.&#x20;
 
 24BD1A663D-week7.docx
+docker-compose.yml
+services:
+  wordpress:
+    image: wordpress
+    ports:
+      - "8081:80"
+    environment:
+      WORDPRESS_DB_HOST: mysql
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: root123
+      WORDPRESS_DB_NAME: librarydb
+    depends_on:
+      - mysql
 
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: librarydb
+    volumes:
+      - db_data:/var/lib/mysql
 
+volumes:
+  db_data:
 
 **Process:** Pull Redis → Run container → Execute Redis commands → Stop/start → Create custom image → Push to Docker Hub.
 
