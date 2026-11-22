@@ -88,7 +88,7 @@
     </pluginManagement>
   </build>
 </project>
-BRO, here's your **SE Lab Internal 2 last-minute practical cheat sheet** 🔥
+<!-- ''BRO, here's your **SE Lab Internal 2 last-minute practical cheat sheet** 🔥
 
 Organized experiment-wise, with the **procedure, commands, Dockerfiles, Jenkins scripts, expected output, and common mistakes**.
 
@@ -998,9 +998,9 @@ EC2 → SSH → Git Clone → Docker Build → Docker Run → Public IP
 1. Forgetting the `.` in `docker build -t myapp .`
 2. Reversing host/container ports in `-p 8080:80`.
 3. Using `sh` in a Windows Jenkins agent instead of `bat`.
-4. Forgetting `/github-webhook/` in the GitHub webhook URL.
+<!-- 4. Forgetting `/github-webhook/` in the GitHub webhook URL.
 5. Forgetting to allow the application's port in the AWS EC2 security group.
 
-**You've actually performed all six announced major topics, bro.** The commands above are your final reference. Focus especially on the Jenkins pipeline script, Dockerfile syntax, Docker Compose YAML, and Kubernetes commands. Those are the easiest places to lose marks through small syntax mistakes.
+**You've actually performed all six announced major topics, bro.** The commands above are your final reference. Focus especially on the Jenkins pipeline script, Dockerfile syntax, Docker Compose YAML, and Kubernetes commands. Those are the easiest places to lose marks through small syntax mistakes. -->
 
-Good luck with your practical! 🔥
+
